@@ -1,0 +1,105 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: default;
+    font-weight: 400;
+}
+
+#principal {
+    
+
+}
+
+#titulo {
+    text-align: center;
+    color: #57606f;
+}
+
+#placar {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#fff;
+}
+
+#jogador, #computador {
+    flex-grow: 1;
+    border-radius: 5px;
+    color: white;
+    padding: 20px;
+    position: relative;
+}
+
+#jogador h2, #computador h2 {
+    margin: 0;
+    padding: 0;
+} 
+
+#jogador {
+    background-color: #ff6b81;
+    opacity: .8;       
+}
+
+#jogador #jogador-escolha, #computador #computador-escolha {
+    margin: 30px 0 0 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+#jogador #jogador-escolha li, #computador #computador-escolha li {
+    display: inline;
+    padding: 0 15px;
+
+}
+
+#jogador #jogador-escolha a, #computador #computador-escolha a {
+    opacity: .30;
+
+}
+
+#jogador #jogador-escolha a:hover, #computador #computador-escolha a:hover {
+    opacity: 1.0;
+}
+
+#jogador #jogador-escolha img, #computador #computador-escolha img {
+    max-width: 80px;
+    
+}
+
+#jogador-nome, #computador-nome {
+    font-size: 24px;
+}
+
+#jogador-pontos, #computador-pontos {
+    position: absolute;
+    top: 8px;   
+    font-size: 52px;
+    
+}
+
+#jogador-pontos, #computador-pontos {
+    right: 20px;
+}
+
+#computador {
+    background-color:#70a1ff;
+    opacity: .8;
+    
+    
+}
+#vs {
+    font-size: 40px;
+    color:#57606f;
+    padding: 15px;
+}
+
+#mensagem {
+    text-align: center;
+    background-color: #57606f;
+    border-radius: 5px;
+    margin: 20px 0;
+    padding: 20px;
+    font-size: 20px;
+    color: black;
+}
